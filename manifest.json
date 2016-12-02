@@ -1,0 +1,18 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": false
+   },
+   "browser_action": {
+      "default_icon": "gmail_not_logged_in.png"
+   },
+   "default_locale": "en",
+   "description": "Multiple Gmail checker",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "manifest_version": 2,
+   "name": "Multiple Gmail checker",
+   "permissions": [ "alarms", "tabs", "webNavigation", "*://*.google.com/" ],
+   "version": "1.0.0"
+}
